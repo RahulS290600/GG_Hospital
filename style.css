@@ -1,0 +1,116 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Inter", sans-serif;
+  }
+header{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    justify-content: space-between;
+    height: 30px;
+}
+.left-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left-header p{
+    padding-right: 20px;
+    font-size: 13px;
+}
+.right-header{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.right-header a{
+    text-decoration: none;
+    color: black;
+    padding-top: 2px;
+    font-size: 13px;
+}
+#nav {
+    margin-left: 50px;
+    display: flex;
+  }
+
+#logo{
+    margin-top: 1%;
+    width: 120px;
+    height: 50px;
+}
+.navbar ul{
+    margin-left: 30px;
+    list-style-type: none;
+    display: flex;
+    
+}
+.navbar ul li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#home-nav{
+    color: #C42026;
+}
+.navbar ul li a:hover{
+    background-color: rgb(231, 229, 229);
+}
+#arrow {
+    margin-top: 12px;
+    margin-left: -10px;
+  }
+#doctor-img{
+    position: relative;
+    width: 88%;
+    padding-left: 60px;
+    height: 70%;
+    z-index: 0;   
+}
+#home-title{
+    position: absolute;
+    font-size: 25px;
+    bottom: 270px;
+    left: 200px;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#home-para{
+    position: absolute;
+    bottom: 220px;
+    left: 200px;
+}
+#home-para p{
+    line-height: 1.5em;
+}
+#book-button{
+    position: absolute;
+    bottom: 180px;
+    left: 200px;
+}
+#book-button-anchor{
+    background-color: rgb(33, 189, 137);
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2%;
+}
+#play-button{
+    position: absolute;
+    bottom: 190px;
+    left: 400px;
+}
+#doc-talk{
+    position: absolute;
+    bottom: 180px;
+    left: 430px;
+    text-decoration: underline;
+}
